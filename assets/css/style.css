@@ -5,7 +5,7 @@
 }
 body
 {
-    background-color: #1e1e1e;
+    background: linear-gradient(45deg, black, transparent);
 }
 .section1
 {
@@ -63,15 +63,23 @@ a
     height: 250px;
     width: 250px;
     border-radius: 70px;
+    margin: 5px;
 }
 .section2
 {
     color: white;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .propos
 {
-    text-align: end;
+    text-align: center;
+    width: 300px;
+}
+p
+{
+    text-align: center;
 }
 .section3
 {
