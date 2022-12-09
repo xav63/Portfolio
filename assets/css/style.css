@@ -17,7 +17,7 @@ body
 }
 .nav
 {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     border: transparent;
@@ -29,12 +29,11 @@ body
 ul
 {
     padding: 1px;
-    text-decoration: none;
+    display: flex;
+    margin: auto;
 }
 li 
 {
-    display: inline;
-    justify-content: space-around;
     margin: 25px;
     text-decoration: none;
 }
@@ -55,7 +54,7 @@ a
     font-style: italic;
     text-align: center;
     font-size: 128px;
-    margin-top: 40px;
+    margin: 40px 10px 40px 10px;
 }
 
 .logo
@@ -96,4 +95,8 @@ p
 .section4
 {
     color: white;
+}
+.icon
+{
+    color: black;
 }
