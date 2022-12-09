@@ -84,6 +84,14 @@ p
 .section3
 {
     color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo_projet
+{
+    height: 250px;
+    width: 250px;
 }
 .section4
 {
