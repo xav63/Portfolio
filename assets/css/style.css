@@ -53,10 +53,9 @@ a
 {
     font-style: italic;
     text-align: center;
-    font-size: 128px;
+    font-size: 7rem;
     margin: 40px 10px 40px 10px;
 }
-
 .logo
 {
     height: 250px;
@@ -172,4 +171,62 @@ textarea
     border-radius: 10px;
     color: black;
     font-weight: 900;
+}
+/* MEDIA QUERIES */
+@media only screen and (max-width: 600px)
+{
+    .nav
+    {
+        display: none;
+    }
+
+}
+@media only screen and (max-width: 600px)
+{
+    .titre
+    {
+        font-size: 3rem;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 600px)
+{
+    .section2, .section3, .section4, .corps-formulaire
+    {
+        flex-direction: column;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 600px)
+{
+    .lien
+    {
+        font-size: 2rem;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 600px)
+{
+    .logo
+    {
+        height: 8rem;
+        width: 8rem;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 600px)
+{
+    .logo_project
+    {
+        height: 8rem;
+        width: 8rem;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 600px)
+{
+    .propos
+    {
+        width: auto;
+    }
 }
