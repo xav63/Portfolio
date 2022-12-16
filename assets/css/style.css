@@ -7,6 +7,11 @@ body
 {
     background: linear-gradient(45deg, black, transparent);
 }
+h2
+{
+    border: solid 0.25rem #474343;
+    border-radius: 2rem;
+}
 .section1
 {
     color: white;
@@ -86,6 +91,14 @@ p
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.section3 h2
+{
+    text-align: center;
+}
+.projet p
+{
+    text-align: left;
 }
 .logo_projet
 {
@@ -220,18 +233,17 @@ footer
 }
 @media only screen and (max-width: 600px)
 {
+    .propos
+    {
+        width: auto;
+    }
+}
+@media only screen and (max-width: 600px)
+{
     .logo_project
     {
         height: 8rem;
         width: 8rem;
         margin: auto;
-        border-radius: 10rem;
-    }
-}
-@media only screen and (max-width: 600px)
-{
-    .propos
-    {
-        width: auto;
     }
 }
