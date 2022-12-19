@@ -20,6 +20,7 @@ h2
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 2rem;
 }
 .nav
 {
@@ -77,6 +78,7 @@ a
     display: flex;
     justify-content: space-around;
     align-items: center;
+    min-height: 100vh;
 }
 .propos
 {
@@ -94,6 +96,7 @@ p
     display: flex;
     justify-content: space-between;
     align-items: center;
+    min-height: 100vh;
 }
 .section3 h2
 {
@@ -115,6 +118,7 @@ p
     color: white;
     display: flex;
     justify-content: center;
+    margin-top: 2rem;
 }
 .icon
 {
@@ -195,6 +199,13 @@ footer
 {
     color: white;
 }
+.fleche
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 4rem;
+    font-size: 1.5rem;
+}
 /* MEDIA QUERIES */
 @media only screen and (max-width: 600px)
 {
@@ -217,6 +228,7 @@ footer
     {
         flex-direction: column;
         margin: auto;
+        min-height: auto;
     }
 }
 @media only screen and (max-width: 600px)
@@ -241,5 +253,12 @@ footer
     .propos
     {
         width: auto;
+    }
+}
+@media only screen and (max-width: 600px)
+{
+    .fleche
+    {
+        display: none;
     }
 }
