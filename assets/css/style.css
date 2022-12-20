@@ -213,50 +213,32 @@ footer
     {
         display: none;
     }
-}
-@media only screen and (max-width: 600px)
-{
     .titre
     {
         font-size: 3rem;
         margin: auto;
     }
-}
-@media only screen and (max-width: 600px)
-{
     .section2, .section3, .section4, .corps-formulaire
     {
         flex-direction: column;
         margin: auto;
         min-height: auto;
     }
-}
-@media only screen and (max-width: 600px)
-{
     .lien
     {
         font-size: 2rem;
         margin: auto;
     }
-}
-@media only screen and (max-width: 600px)
-{
     .logo, .logo_projet
     {
         height: 8rem;
         width: 8rem;
         margin: auto;
     }
-}
-@media only screen and (max-width: 600px)
-{
     .propos
     {
         width: auto;
     }
-}
-@media only screen and (max-width: 600px)
-{
     .fleche
     {
         display: none;
